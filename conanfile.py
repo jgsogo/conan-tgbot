@@ -1,5 +1,4 @@
 from conans import ConanFile, CMake, tools
-from conans import tools
 
 
 class TgbotConan(ConanFile):
