@@ -21,7 +21,7 @@ class TgbotConan(ConanFile):
         return "tgbot-cpp"
 
     def requirements(self):
-        self.requires("OpenSSL/1.1.1@conan/stable")
+        self.requires("OpenSSL/1.0.2p@conan/stable")
         self.requires("boost/1.68.0@conan/stable")
         self.requires("libcurl/7.61.1@bincrafters/stable")
 
